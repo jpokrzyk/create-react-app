@@ -163,6 +163,7 @@ module.exports = {
         options: {
           babelrc: false,
           presets: [require.resolve('babel-preset-react-app')],
+          plugins: ["transform-decorators-legacy"]
         },
         // @remove-on-eject-end
       },
